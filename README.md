@@ -23,7 +23,7 @@ Before using this app, please prepare the following three items.
 ### Execution
 Let's start with `python music_recommender.py`.
 
-1. enter the avobe URL on browser, and input 'code' in redirected URL.
+#### 1. enter the avobe URL on browser, and input 'code' in redirected URL.
    example: http://localhost:3000/?code=AQDM_QoB...lDN_tlBJGef8&state=bYT6X8jpHttTKT43
    → code is `AQDM_QoB...lDN_tlBJGef8`
    
@@ -47,8 +47,9 @@ authentication is successed!
 
 you: 
 ```
-
-2. Based on your inout, chatGPT returns recommended music genres and parameters, which are then used by Spotify to create playlists of recommended songs.
+  
+  
+#### 2. Based on your inout, chatGPT returns recommended music genres and parameters, which are then used by Spotify to create playlists of recommended songs.
    (ChatGPT recommends at least 1 up to 4 "music genres", and parameter ranges from 0 to 1.)
 ```
 you: Teach me some upbeat Latin music.
